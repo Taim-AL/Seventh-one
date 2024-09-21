@@ -1,0 +1,390 @@
+*{
+    font-family: "Open Sans",sans-serif;
+}
+
+/* Home */
+.home-1{
+    font-family: "Font Awesome 5 Free";
+    background-image: url(img/carousel-1.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.h1-1{
+    font-size: 5vw;
+    margin-top: 20vh;
+    color: white;
+}
+.button1-1{
+    width: 25vh;
+    height: 7vh;
+    border: none;
+    border-radius: 30px;
+    margin-top: 4vh;
+    margin-left: 9vh;
+    background-color: #32C36C;
+    color: white;
+    font-size: 1.2vw;
+}
+.button1-1:hover{
+    background-color: #32c36c86;
+}
+.button1-2{
+    width: 25vh;
+    height: 8vh;
+    background-color: #32C36C;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 5px;
+}
+.button1-2:hover{
+    background-color:  #32c36c86;
+}
+.icon{
+    background-color: #32C36C;
+    color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+/* About */
+.img1-1{
+    width: 100%;
+}
+.icomes2{
+    background-color: #32C36C;
+    border-radius: 50%;
+    color: white;
+}
+.button2-1{
+    width: 30vh;
+    height: 8vh;
+    border: none;
+    border-radius: 30px;
+    background-color: #32C36C;
+    color: white;
+    font-size:1.2vw ;
+}
+.button2-1:hover{
+    background-color: #32c36c86;
+}
+.colcol{
+    background-color: rgba(128, 128, 128, 0.08);
+    
+}
+/* Serverce */
+.icone2-1{
+    color: #32C36C;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem;
+    margin-top: -15vh;
+    cursor: pointer;
+}
+.button3-1{
+    color: #32C36C;
+    border: none;
+}
+.btns:hover .icone2-1{
+    color: white;
+    background-color: #32C36C;
+}
+.iconschoouse{
+    color: white;
+    background-color: #32C36C;
+    border-radius: 50%;
+    border: none;
+    padding: 0.5rem;
+}
+/* Our Projects */
+.button4-1{
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5vw;
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+    transition: 0.3s;
+}
+.button4-1:hover{
+    color: #32C36C;
+    text-decoration: underline;
+}
+@media (max-width:767px) {
+    .button4-1{
+        font-size: 13px;
+    }
+}
+.button4-2{
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5vw;
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+    color: #32C36C;
+    text-decoration: underline;
+}
+.img4-1{
+    border-radius:10px ;
+}
+.p4-1{
+    color: #32C36C;
+    border-bottom: 1px solid #32C36C;
+    width: 50%;
+    margin-top: 2vh;
+}
+.h5-4-2{
+    line-height: 1.5 !important;
+    font-size: 1.25rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+}
+/* Free Quote */
+.input1-1{
+    width:40%;
+    height:60px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1vh;
+    margin: 1rem;
+}
+.text-area{
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+}
+/* Team Member */
+.imgteam{
+    width: 100%;
+    border-radius: 0 60% 0 0;
+    margin-right: 6.4rem;
+}
+.btn5 h5 {
+    font-weight: bold;
+    margin-top: 4vh;
+}
+.btn5 h6 {
+    color: grey;
+    padding-bottom: 3vh;
+}
+.divicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 0.5s;
+    width: auto;
+}
+.teamicon{
+    border: 1px solid #32C36C;
+    background-color: white; 
+    color: #32C36C;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.teamicon:hover{
+    background-color: #32C36C;
+    color: white;
+    transition: 0.5s;
+}
+/* Splide */
+.splide-img{
+    border-radius: 50%;
+}
+.btn-splide{
+    width: 99%; 
+}
+.btn-splide p{
+    color: gray;
+    font-size: 17px;
+    font-style: italic;
+}
+.btn-splide h4{
+    font-weight: bold;
+}
+/*Nav*/
+.nav-items1{
+    color: black !important;
+    transition: 0.4s;
+    padding-right: 1rem !important;
+}
+.nav-items1:hover{
+    color: #32C36C !important;
+}
+.nav-items2{
+    color: #32C36C !important;
+    padding-right: 1rem !important;
+}
+.but-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #32C36C;
+    transition: 0.3s;
+    z-index: 1;
+}
+.but-up:hover{
+    color: #32C36C;
+}
+.spinner{
+    position: absolute !important;
+    z-index: -1 !important;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #32C36C;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.style-splide{
+    box-shadow: 10vh 0px 10vh 0px #e7dfdf inset;
+}
+
+/*Footer*/
+.footer1{
+    margin-top: 6.6rem !important;
+    background-color: #1a2a36;
+    color: #9b9b9b;
+}
+.h5-footer{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #fff ;
+}
+.par-footer{
+    font-size: 17px;
+    transition: 0.3s;
+}
+.icon1-foot{
+    margin-right: 0.6rem;
+}
+.icon2-foot{
+    font-size: 2.5rem !important;
+    padding: 0.5rem !important;
+    border: 1px solid #9b9b9b;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    transition: 0.3s !important;
+}
+.icon2-foot:hover{
+    color: #d8d8d8 !important;
+}
+.icon3-foot{
+    font-size: 1rem !important;
+    transition: 0.3s !important;
+}
+.li-foot{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.li-foot:hover{
+    color: #fff !important;
+    transform: translate(1.1);
+}
+.li-foot:hover .par-footer{
+    word-spacing: 2px;
+    position: relative;
+}
+.img-foot{
+    width: 100%;
+    border-radius: 5px;
+}
+.input-foot{
+    color: gray;
+    background-color: #fff;
+    padding: 0.9rem;
+    font-size: 16px;
+    font-style: italic;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.but-foot{
+    color: #fff;
+    background-color: #32C36C;
+    border: none;
+    position: absolute;
+    padding: 0.5rem;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.about1{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../assets/img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    margin-bottom: 3rem !important;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    height: 24rem;
+}
+.h1-2{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+}
+.par1{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    word-spacing: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    cursor: pointer;
+}
+.input-contact{
+    width: 100%;
+    background-color: #fff;
+    color: #9b9b9b;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+.but-contact{
+    color: #fff;
+    background-color: #32C36C;
+    border: none;
+    padding: 1rem 2rem 1rem 2rem  ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-style: italic;
+    transition: 0.5s;
+}
+.but-contact:hover{
+    background-color: #40df80;
+}
